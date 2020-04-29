@@ -1,5 +1,7 @@
 html,
 h1 {
+    font-family:Georgia;
+    background-color: Aqua;
     width: 500px;
     margin: 0px auto;
     display; block;
