@@ -5,10 +5,12 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
 h1 {
     font-size:90px;
     padding: 120px 0 0 0;
 }
+
 .viz {
     float:left;
 
@@ -52,13 +54,14 @@ h2 {
 
 .main {
     font-family: sans-serif;
-    color:black;
+    color:#AED6F1;
 }
 
 p {
     position: 0 0 0 400px;
-    background-color:rgba(240, 248, 255, 0.9);
+    background-color:rgb(20,20,20,.9);
     font-size: 18px;
+    font-color: #AED6F1;
     display:inline-block;
     border-style: solid;
     border-color: #333;
@@ -67,25 +70,22 @@ p {
 }
 
 h3 {
-    color:aliceblue;
+    color:#AED6F1;
     font-style: italic;
     font-size: 30px;
-}
-
-.FoodWeb {
-  &__image {
-    width: 250px;
-    float: left;
-  }
-  &__text {
-    display: inline;
-  }
+    padding: 0;
 }
 
 img {
-    width: 250px;
+    width: 350px;
     padding:0 12px 0 0;
     float: left;
+}
+
+img .bottom {
+  bottom: 0;
+  width: 350px;
+  padding:0 12px 0 0;
 }
 
 figcaption {
