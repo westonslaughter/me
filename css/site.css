@@ -1,0 +1,48 @@
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  /* border: 2px solid #33b5e5; */
+  /* display: inline-block; */
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+  /* border-radius: 50%; */
+}
+
+
+
+/* .. */
+
+.jumbotron.topper {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.sider {
+  position:relative;
+  right:4em;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.3em;
+}
+
+.shortlist {
+  margin-bottom: 0;
+}
+
+.topinfo {
+  margin-top: 0;
+  font-weight:lighter;
+  font-style: italic;
+}
